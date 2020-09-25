@@ -52,7 +52,7 @@ figure {
 body{
     background: url("../img/cleo-topper.jpg")  center center / cover no-repeat fixed;
 }
-header, footer{
+header, footer, a.donate{
     font-family: Roboto;
 }
 h1 > span.br, h2 > span.br, h3 > span.br, h4 > span.br, h5 > span.br, h6 > span.br {
@@ -127,11 +127,6 @@ h3.scroll{
     color: var(--blue);
 }
 
-
-
-
-
-
 /* sec2 styles */
 #sec2{
     background-color: #fff;
@@ -141,7 +136,30 @@ h3.scroll{
     background-repeat: no-repeat;
     height: 1000px;
     }
+
+
 /* sec3 styles */
+#sec3 {
+    color: white;
+    padding: 200px 0;
+    background: #000;
+}
+#sec3 h2{
+    font-size: 8rem;
+    margin-bottom: 80px;
+    }
+    #sec3 a{
+        color: #fff;
+        font-size: 2rem;
+        padding: 20px 40px;
+        border: 2px solid #fff;
+    }
+    #sec3 a:hover{
+        background: #fff;
+        color: black;
+        transition: background 0.3s 0s ease-in-out;
+    }
+
 
 
 
