@@ -1,29 +1,29 @@
 /* fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto&display=swap");
 /* 
 font-family: 'Mr Dafoe', cursive;
 font-family: 'Roboto', sans-serif;
 */
 @font-face {
-    font-family: 'Santio Bold';
-    src: url(../fonts/santio.ttf);
-  }
+  font-family: "Santio Bold";
+  src: url(../fonts/santio.ttf);
+}
 
 /* palette */
 
-:root{
-    font-family: 'Santio Bold';
-    --blue: #7eb8e1;
-    --pink: #cb91b6;
-    --green: #6bc1a3;
-    --lightgrey:#efefef;
-    --yellow: #e7bc0e;
+:root {
+  font-family: "Santio Bold";
+  --blue: #7eb8e1;
+  --pink: #cb91b6;
+  --green: #6bc1a3;
+  --lightgrey: #efefef;
+  --yellow: #e7bc0e;
 }
 
 /* resets */
 body {
-    margin: 0;
+  margin: 0;
 }
 h1,
 h2,
@@ -32,136 +32,145 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+  margin: 0;
 }
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 figure {
-    margin: 0;
+  margin: 0;
 }
 
 /* global stuff */
-body{
-    background: url("../img/cleo-topper.jpg")  center center / cover no-repeat fixed;
+body {
+  background: url("../img/cleo-topper.jpg") center center / cover no-repeat
+    fixed;
 }
-header, footer, a.donate{
-    font-family: Roboto;
+header,
+footer,
+a.donate {
+  font-family: Roboto;
 }
-h1 > span.br, h2 > span.br, h3 > span.br, h4 > span.br, h5 > span.br, h6 > span.br {
-    display: block;
+h1 > span.br,
+h2 > span.br,
+h3 > span.br,
+h4 > span.br,
+h5 > span.br,
+h6 > span.br {
+  display: block;
 }
-div.pad{
-    padding: 0 10%;
+div.pad {
+  padding: 0 10%;
 }
-span.highlight{
-    color: white;
-    background: black;
+span.highlight {
+  color: white !important;
+  background: black;
 }
-span.larger{
-    font-size: 11rem;
+span.larger {
+  font-size: 11rem;
 }
-div.interior-section{
-    padding: 50px 0;
+div.interior-section {
+  padding: 50px 0;
 }
-
 
 /* header styles */
 
-nav{
-    text-align: right;
+nav {
+  text-align: right;
 }
-nav a{
-    color: #fff;
-    border-bottom: 2px solid var(--yellow);
-    display: inline-block;
-    font-size: 1.2;
-    padding: 5px 0;
-    margin: 10px 0;
+nav a {
+  color: #fff;
+  border-bottom: 2px solid var(--yellow);
+  display: inline-block;
+  font-size: 1.2;
+  padding: 5px 0;
+  margin: 10px 0;
 }
-nav > span > img{
-    display: inline-block;
-    height: 16px;
-    padding-right: 20px;
-    width: auto;
-} 
+nav > span > img {
+  display: inline-block;
+  height: 16px;
+  padding-right: 20px;
+  width: auto;
+}
 
 /* sec1 styles */
-div.sec1-icon-wrapper{
-    margin-bottom: 40px;
+div.sec1-icon-wrapper {
+  margin-bottom: 40px;
 }
 
-#sec1 h2{
-    color: white;
-    font-size: 3rem;
+#sec1 h2 {
+  color: white;
+  font-size: 3rem;
 }
-h3.scroll{
-    font-family: 'Mr Dafoe', cursive;
+h3.scroll {
+  font-family: "Mr Dafoe", cursive;
+  color: var(--yellow);
+  font-size: 2rem;
+  padding: 50px 0;
+}
+#sec1 p {
+  font-size: 1.75rem;
+  color: var(--green);
+  padding: 50px 10% 50px 20%;
+  line-height: 2;
+}
+
+div.first h2 span{
     color: var(--yellow);
-    font-size: 2rem;
-    padding: 50px 0;
 }
-#sec1 p{
-    font-size: 1.75rem;
-    color: var(--green);
-    padding: 50px 10% 50px 20%;
-    line-height:2.0;
-}
-#sec1 img:nth-of-type(2), #sec1 h2:nth-of-type(2){
-    color: var(--yellow);
-}
-#sec1 img:nth-of-type(3), #sec1 h2:nth-of-type(3){
+div.second h2 span{
     color: var(--pink);
 }
-#sec1 img:nth-of-type(4), #sec1 h2:nth-of-type(4){
+div.second h2 span{
     color: var(--green);
-}
-#sec1 p:last-child{
-    color: var(--blue);
 }
 
 /* sec2 styles */
-#sec2{
-    background-color: #fff;
-    background-image: url("../img/kid.png"), url("../img/see.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 1000px;
-    }
-
+#sec2 {
+  background-color: #fff;
+  background-image: url("../img/kid.png"), url("../img/see.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
 
 /* sec3 styles */
 #sec3 {
-    color: white;
-    padding: 200px 0;
-    background: #000;
+  color: white;
+  padding: 200px 0;
+  background: #000;
 }
-#sec3 h2{
-    font-size: 8rem;
-    margin-bottom: 80px;
-    }
-    #sec3 a{
-        color: #fff;
-        font-size: 2rem;
-        padding: 20px 40px;
-        border: 2px solid #fff;
-    }
-    #sec3 a:hover{
-        background: #fff;
-        color: black;
-        transition: background 0.3s 0s ease-in-out;
-    }
-
-
-
-
+#sec3 h2 {
+  font-size: 8rem;
+  margin-bottom: 80px;
+}
+#sec3 a {
+  color: #fff;
+  font-size: 2rem;
+  padding: 20px 40px;
+  border: 2px solid #fff;
+}
+#sec3 a:hover {
+  background: #fff;
+  color: black;
+  transition: background 0.3s 0s ease-in-out;
+}
 
 /* footer styles */
+
+footer {
+  color: #fff;
+  background: #000;
+  text-align: center;
+}
+footer a {
+  color: var(--green);
+}
